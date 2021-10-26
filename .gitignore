@@ -1,0 +1,21 @@
+.DS_Store
+*.swp
+*.pyc
+*.idea
+__pycache__
+
+# ignore files that are inside the folder called in any of subfolders:
+*/OLD/*
+*/Old/*
+*/old/*
+
+# trying to ignore __init__.py
+#__init__.py
+_migrations/*
+!_migrations/__init__.py
+
+# Files over 99MB
+2_Machine_Learning/Weather_Data/ECA_blend_tg.zip
+2_Machine_Learning/Weather_Data/ECA_nonblend_tg.zip
+2_Machine_Learning/Weather_Data/ECA_homblend_tg.zip
+count_runs
